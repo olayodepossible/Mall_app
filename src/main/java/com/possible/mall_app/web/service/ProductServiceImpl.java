@@ -1,6 +1,7 @@
 package com.possible.mall_app.web.service;
 
 import com.possible.mall_app.web.Model.ProductDto;
+import com.possible.mall_app.web.Model.ProductTypeEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +15,7 @@ public class ProductServiceImpl implements ProductService{
         return ProductDto.builder()
                 .id(UUID.randomUUID())
                 .productName("Vivi e2c")
-                .productType("Mobile Phone")
+                .productType(ProductTypeEnum.PHONE)
                 .build();
     }
 
