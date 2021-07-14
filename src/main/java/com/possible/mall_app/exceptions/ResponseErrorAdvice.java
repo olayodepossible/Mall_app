@@ -1,4 +1,4 @@
-package com.possible.mall_app.web.controller;
+package com.possible.mall_app.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
